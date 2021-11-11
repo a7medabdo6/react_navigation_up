@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
+}
+.p-5 {
+  padding: 5px !important;
+}
+.m-5 {
+  margin-top: 1.5em !important;
+  margin-bottom: 1.5em !important;
+}
+.mt-10 {
+  margin-top: 55px !important;
+}
+.mb-10 {
+  margin-bottom: 85px !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  height: 2px;
+  border-right: none;
+  border-left: none;
+}
+nav {
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  position: fixed;
+  display: inline-block;
+  left: 5%;
+  width: 90%;
+  bottom: 0px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.ui.horizontal.bulleted.list,
+ul.ui.horizontal.bulleted.list {
+  width: 100%;
+  display: flex;
+  color: white;
+  align-items: center;
+
+  justify-content: space-around;
+}
+.ui.bulleted.list .list > .item:before,
+.ui.bulleted.list > .item:before,
+ul.ui.list li:before {
+  display: none;
+}
+.ui.horizontal.bulleted.list > .item,
+ul.ui.horizontal.bulleted.list li {
+  color: white;
+}
+.main_content {
+  /*opacity: 0;*/
+}
+.main_content .item {
+  padding: 12px !important;
+  border-radius: 15px;
+}
+.main_content .item:hover {
+  background-color: black;
+}
+.chevron_arrow {
+  padding: 20px;
+  background-color: rgb(37, 37, 37);
+}
+.down_arrow {
+  width: 60px;
+  margin-left: auto;
+  border-radius: 10px;
+}
+.down_arrow.right {
+  width: 60px;
+  margin-right: auto;
+  margin-left: unset;
+  position: absolute;
+  background-color: rgb(169 169 169);
+
+  top: 30px;
+}
+.down_arrow i {
+  font-size: 1.2em;
+}
+.number {
+  font-size: 18px !important;
+  font-weight: 900 !important;
+}
+.arrow_down {
+  top: unset !important;
+  bottom: 30px;
+}
+.mobile_number:hover {
+  background-color: #252525;
 }
