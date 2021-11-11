@@ -98,3 +98,28 @@ ul.ui.horizontal.bulleted.list li {
 .mobile_number:hover {
   background-color: #252525;
 }
+
+/* ==========NavDesktop==================================*/
+nav.NavDesktop {
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  position: fixed;
+  display: inline-block;
+  left: 0%;
+  width: 100px;
+  bottom: 2.5%;
+  height: 95%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  border-top-left-radius: 0px;
+}
+
+.NavDesktop .ui.horizontal.bulleted.list > .item,
+ul.ui.horizontal.bulleted.list li {
+  margin-left: 0px !important;
+  min-height: 40px;
+}
